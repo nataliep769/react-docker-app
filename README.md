@@ -1,3 +1,6 @@
+#Natalie's Notes
+This app runs on port 3001.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
