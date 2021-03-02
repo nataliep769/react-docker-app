@@ -3,6 +3,8 @@ version: '3.9'
 services:
   sample:
     container_name: natalie-react-container
+    environment:
+      CHOKIDAR_USEPOLLING: "true" # note that this ups the CPU usage
     build:
       context: .
       dockerfile: Dockerfile
