@@ -11,5 +11,11 @@ services:
     volumes:
       - '.:/app'
       - '/app/node_modules'
+    networks:
+      - my-network
     ports:
-      - 3001:3000
+      - 3000:3000
+
+networks:
+  specialnetwork:
+    driver: bridge
